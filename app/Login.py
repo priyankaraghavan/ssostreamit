@@ -5,6 +5,7 @@ import msal
 import app.utils as utils
 
 base_url = "http://localhost:8501"
+#set env variables
 CLIENT_ID = os.getenv("clientid")
 CLIENT_SECRET= os.getenv("clientsecret")
 TENANT_ID= os.getenv("tenantid")
@@ -59,6 +60,8 @@ def logout():
 
 
 def main():
+
+    # ------------------ Streamlit Page Configuration ------------------ #   
     
     st.set_page_config(
         page_title="Login",

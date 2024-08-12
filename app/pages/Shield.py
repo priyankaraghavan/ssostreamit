@@ -3,7 +3,10 @@ import streamlit as st
 import app.utils as utils
 import os
 import Login
+
+
 base_url = "http://localhost:8501"
+#set env variables
 CLIENT_ID = os.getenv("clientid")
 CLIENT_SECRET= os.getenv("clientsecret")
 TENANT_ID= os.getenv("tenantid")
@@ -15,7 +18,7 @@ REDIRECT_PATH=f'/Shield'
 
 def main():
    
-    # ------------------ Streamlit UI Configuration ------------------ #   
+    # ------------------ Streamlit Page Configuration ------------------ #   
     st.set_page_config(
         page_title="Shield",
         page_icon=":shield:",

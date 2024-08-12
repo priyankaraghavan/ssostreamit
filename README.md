@@ -1,6 +1,5 @@
 # ssostreamit
-I struggled a little bit when writing some code to SSO with streamlit. Here is some sample code that would help anyone new to enabling streamlit with Azure AD.
-MSAL is the Queen here. Therefore all thanks to MSAL
+I encountered challenges while enabling Single Sign-On (SSO) with Streamlit. Below, I’ve provided sample code that can assist newcomers in setting up SSO with Azure Active Directory (Azure AD). MSAL (Microsoft Authentication Library) is the queen here, and I owe my gratitude to the MSAL library. But hope this helps someone new to streamlit
 
 # requirements
 Install requirements in python file to get started.
